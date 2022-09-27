@@ -101,6 +101,7 @@
       "gitlab": "https://gitlab.com/megabyte-labs/templates/go-cli"
     },
     "slug": "go-cli-template",
+    "snapPackage": "go-cli",
     "subgroup": "cli",
     "subheaderDescription": "Same as description but only shows up in the README and allows special characters",
     "title": "Go CLI Starting Template"
