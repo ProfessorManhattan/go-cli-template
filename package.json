@@ -82,7 +82,12 @@
     "tag": "edge"
   },
   "blueprint": {
+    "binName": "null",
     "boilerplate": true,
+    "buildMain": "null",
+    "build_command": "null",
+    "build_command_output": "null",
+    "currentBuildTag": "null",
     "customPackageName": "go-cli-template",
     "description": "A starting template for Go CLI projects",
     "github_id": "R_kgDOGr8gew",
@@ -96,6 +101,7 @@
       "gitlab": "https://gitlab.com/megabyte-labs/templates/go-cli"
     },
     "slug": "go-cli-template",
+    "subheaderDescription": "Same as description but only shows up in the README and allows special characters",
     "subgroup": "cli",
     "title": "Go CLI Starting Template"
   },
