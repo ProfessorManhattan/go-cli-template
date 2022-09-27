@@ -49,7 +49,7 @@
   </a>
 </div>
 
-> </br><h4 align="center">**subheaderDescription**</h4></br>
+> </br><h4 align="center">**Same as description but only shows up in the README and allows special characters**</h4></br>
 
 <!--TERMINALIZE![terminalizer_title](https://gitlab.com/megabyte-labs/templates/go-cli/-/raw/master/docs/demo.gif)TERMINALIZE-->
 
@@ -97,13 +97,13 @@ There are several ways you can install this CLI. You can:
 If you are looking to install the CLI as quickly as possible then you can run the following script which will install the binary to your `/usr/local/bin` folder on macOS or Linux:
 
 ```
-curl -sS https://install.doctor/binName | bash
+curl -sS https://install.doctor/null | bash
 ```
 
 Or, if you are on Windows, you can install it by running:
 
 ```
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://install.doctor/binName?os=win'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://install.doctor/null?os=win'))
 ```
 
 ### Compile Program with Go
@@ -113,8 +113,8 @@ You can install the CLI by compiling it from the source as long as you have a re
 ```
 git clone https://github.com/megabyte-labs/go-cli-template.git
 cd {{#withLast (split repository.github "/")}}this}}{{/withLast
-build_command
-sudo mv build_command_output /usr/local/bin
+null
+sudo mv null /usr/local/bin
 ```
 
 After you compile the program, you should then move the binary file to a location that is in your `PATH` (which is what the last line does in the snippet above).
@@ -124,7 +124,7 @@ After you compile the program, you should then move the binary file to a locatio
 Every release is bundled into an NPM package that you can install by running the following command:
 
 ```
-npm install -g binName
+npm install -g null
 ```
 
 ### Pre-Built Binary
@@ -135,7 +135,7 @@ If you trust us (and you should not.. trust.. anybody.. EVER), then you can also
 
 ## Usage
 
-All of the usage instructions can be found by running `binName --help`. After running the command, you should be greeted with the following output:
+All of the usage instructions can be found by running `null --help`. After running the command, you should be greeted with the following output:
 
 ```
 help_menu_output
@@ -143,7 +143,7 @@ help_menu_output
 
 ### Man Page
 
-Alternatively, if you installed the package via NPM or an installer that set up the man page (e.g. `.deb` or `.rpm`), then you can find usage instructions by running `man binName`.
+Alternatively, if you installed the package via NPM or an installer that set up the man page (e.g. `.deb` or `.rpm`), then you can find usage instructions by running `man null`.
 
 <a href="#contributing" style="width:100%"><img style="width:100%" src="https://gitlab.com/megabyte-labs/assets/-/raw/master/png/aqua-divider.png" /></a>
 

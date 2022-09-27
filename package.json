@@ -50,14 +50,14 @@
   },
   "optionalDependencies": {},
   "devDependencies": {
+    "@commitlint/config-conventional": "latest",
     "eslint-config-strict-mode": "latest",
     "git-cz-emoji": "latest",
+    "handlebars-helpers": "latest",
     "prettier": "^2.4.1",
     "prettier-config-sexy-mode": "latest",
     "semantic-release-config": "latest",
-    "typescript": "^4.5.5",
-    "@commitlint/config-conventional": "latest",
-    "handlebars-helpers": "latest"
+    "typescript": "^4.5.5"
   },
   "keywords": [
     "automation",
@@ -101,8 +101,8 @@
       "gitlab": "https://gitlab.com/megabyte-labs/templates/go-cli"
     },
     "slug": "go-cli-template",
-    "subheaderDescription": "Same as description but only shows up in the README and allows special characters",
     "subgroup": "cli",
+    "subheaderDescription": "Same as description but only shows up in the README and allows special characters",
     "title": "Go CLI Starting Template"
   },
   "changelog": {
@@ -116,7 +116,9 @@
     "showAuthor": true
   },
   "commitlint": {
-    "extends": [],
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
     "helpUrl": "https://megabyte.space/docs/contributing/commits"
   },
   "eslintConfig": {
@@ -136,7 +138,7 @@
     }
   ],
   "goBinary": {
-    "name": "",
+    "name": "null",
     "path": "./bin",
     "url": "https://github.com/megabyte-labs/go-cli-template/releases/download/v0.0.1/Go-CLI-0.0.1-{{platform}}-{{arch}}.tar.gz"
   },

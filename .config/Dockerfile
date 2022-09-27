@@ -1,6 +1,6 @@
 FROM scratch AS binary
 
-ENTRYPOINT ["/"]
+ENTRYPOINT ["/null"]
 CMD ["--version"]
 
-COPY  /
+COPY null /
