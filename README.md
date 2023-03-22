@@ -112,7 +112,7 @@ You can install the CLI by compiling it from the source as long as you have a re
 
 ```
 git clone https://github.com/megabyte-labs/go-cli-template.git
-cd {{#withLast (split repository.github "/")}}this}}{{/withLast
+cd {{#withLast (split repository.github "/")}}this/withLast
 null
 sudo mv null /usr/local/bin
 ```
