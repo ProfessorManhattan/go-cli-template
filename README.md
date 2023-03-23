@@ -49,7 +49,7 @@
   </a>
 </div>
 
-> </br><h4 align="center">**Same as description but only shows up in the README and allows special characters**</h4></br>
+> <br/><h4 align="center">**Same as description but only shows up in the README and allows special characters**</h4><br/>
 
 <!--TERMINALIZE![terminalizer_title](https://gitlab.com/megabyte-labs/templates/go-cli/-/raw/master/docs/demo.gif)TERMINALIZE-->
 
